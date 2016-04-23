@@ -1,4 +1,5 @@
 ActiveAdmin.register Reservation do
+  permit_params :reserve_from, :reserve_upto, :reservation_details, :status
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
